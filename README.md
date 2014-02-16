@@ -1,3 +1,1 @@
-Hello world~
-<script type="text/javascript"<br /&gt;
-        src="http://localhost/test/1.js"
+开发中，请先浏览<a href="http://bluereader.org">深蓝阅读</a>

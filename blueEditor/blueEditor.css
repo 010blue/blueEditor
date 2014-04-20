@@ -1,0 +1,28 @@
+/**
+    blueEditor 简单web所见即所得编辑器
+    @url blueeditor.oldcms.com
+    @author blue, 010blue@gmail.com
+*/
+
+.blueEditor { display:inline-block; font-family:tahoma, helvetica, arial; border:1px solid #B7C7CF; font-size:12px; width:408px; background:#FFF; overflow:hidden }
+.blueEditor .blueEditor-toolbar { padding:0 5px; background:#E6F1F6; line-height:24px; border-bottom:#D8E6EC 1px solid; overflow:hidden }
+.blueEditor .blueEditor-toolbar a { display:block; float:left; margin:1px 5px 0 0; padding:0 8px; color:#000000; text-decoration:none; overflow:hidden }
+.blueEditor .blueEditor-toolbar a:hover { background:#FFF }
+.blueEditor .blueEditor-toolbar a.resize_btn { float: right; font-weight: bold; color: #666; }
+.blueEditor .blueEditor-toolbar .toolbox { margin-top:25px; display:none; position:absolute; padding:5px 10px; float:left; z-index:1000; border:1px solid #CCC; background:#FFFFFF; overflow:hidden; cursor: default }
+.blueEditor .blueEditor-toolbar .resize_box { float: right; }
+.blueEditor .blueEditor-toolbar .toolbox p { text-align: left; margin:0; padding:4px 0 }
+.blueEditor .blueEditor-toolbar .toolbox form { text-align: left; margin:0; padding:3px 0 }
+.blueEditor .blueEditor-toolbar .toolbox label { padding-right:10px; display:inline-block }
+.blueEditor .blueEditor-toolbar .toolbox input[type=text],.blueEditor .blueEditor-toolbar .toolbox input[type=file] { padding:2px; height:18px; border:#BBB 1px solid; width:240px }
+.blueEditor .blueEditor-toolbar .toolbox .toolbuttons { text-align: center }
+.blueEditor .blueEditor-toolbar .toolbox .toolbuttons input { margin:0 5px }
+.blueEditor .blueEditor-content { font-size: 14px; margin:4px; width:400px; height:100px; line-height:23px; text-align:left; overflow-y:auto }
+.blueEditor .blueEditor-toolbar .toolbox .navbar { width:100%; padding:0 10px; height:24px }
+.blueEditor .blueEditor-toolbar .toolbox .navbar a { display:block; float:left; height:24px; line-height:24px; padding:0 5px; border:#FFF 1px solid; border-bottom:none; background:#FFF }
+.blueEditor .blueEditor-toolbar .toolbox .navbar a.active,.blueEditor .blueEditor-toolbar .toolbox .navbar a:hover { border-color:#CCC; height:25px; margin-bottom:-1px; z-index:100 }
+.blueEditor .blueEditor-toolbar .toolbox hr { background:#CCC; color:#CCC; clear:both; float:none; width:100%; height:1px; margin:0 0 5px 0; border:none }
+
+.blueEditor .blueEditor-content img { max-width: 80%; }
+
+code { display:block; padding:5px; font-size:12px; background:#F8F8F8; color:#333; border:#CCC 1px solid; width:100%-2; min-height:20px; line-height:20px }

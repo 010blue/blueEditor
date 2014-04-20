@@ -200,7 +200,7 @@ function BlueEditor(obj,options){
                     obj_item=$('<a href="javascript:void(0)">'+lan.video+'</a>');
                     toolbar.append(obj_item);
                     //video's box
-                    video_box=$('<div class="toolbox"><p class="tooldata"><label>'+lan.video_url+':</label><input type="text" /></p><p class="toolbuttons"><input class="operate-confirm" type="button" value="'+lan.confirm+'" /><input class="operate-cancel" type="button" value="'+lan.cancel+'" /></p></div>');
+                    video_box=$('<div class="toolbox"><p class="tooldata"><input type="text" placeholder="'+lan.video_url_empty+'" /></p><p class="toolbuttons"><input class="operate-confirm" type="button" value="'+lan.confirm+'" /><input class="operate-cancel" type="button" value="'+lan.cancel+'" /></p></div>');
                     toolbar.append(video_box);
                     //show box
                     obj_item.click(function(){

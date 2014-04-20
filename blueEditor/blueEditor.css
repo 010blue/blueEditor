@@ -10,7 +10,6 @@
 .blueEditor .blueEditor-toolbar a:hover { background:#FFF }
 .blueEditor .blueEditor-toolbar a.resize_btn { float: right; font-weight: bold; color: #666; }
 .blueEditor .blueEditor-toolbar .toolbox { margin-top:25px; display:none; position:absolute; padding:5px 10px; float:left; z-index:1000; border:1px solid #CCC; background:#FFFFFF; overflow:hidden; cursor: default }
-.blueEditor .blueEditor-toolbar .resize_box { float: right; }
 .blueEditor .blueEditor-toolbar .toolbox p { text-align: left; margin:0; padding:4px 0 }
 .blueEditor .blueEditor-toolbar .toolbox form { text-align: left; margin:0; padding:3px 0 }
 .blueEditor .blueEditor-toolbar .toolbox label { padding-right:10px; display:inline-block }

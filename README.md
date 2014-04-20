@@ -1,4 +1,4 @@
-<header><h3>blueEditor | 版本 1.0 | 简单web所见即所得编辑器</h3></header>
+<h3>blueEditor | 版本 1.0 | 简单web所见即所得编辑器</h3>
 <pre><code>/* 说明 */
 1) 基于html5+jquery，简单高效，兼容IE7+、Chrome、Firefox等浏览器
 2) 支持中文(默认)、英文等语言切换，语言配置见blueEditor.js

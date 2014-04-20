@@ -10,9 +10,7 @@
 &lt;link href=&quot;blueEditor.css&quot; type=&quot;text/css&quot; rel=&quot;stylesheet&quot;&gt;
 
 /* 在线Demo地址 */
-<a target="_blank" href="http://editor.bluereader.org">http://editor.bluereader.org</a>
-</code>
-</pre>
+<a target="_blank" href="http://editor.bluereader.org">http://editor.bluereader.org</a></code></pre>
 <pre><code>$('textarea#demo1').blueEditor({ 'width':600, 'height':80, 'language':'cn' });
 $('textarea#demo2').blueEditor({
     'width':600, 'height':80

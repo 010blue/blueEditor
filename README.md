@@ -13,7 +13,7 @@
 <a target="_blank" href="http://editor.bluereader.org">http://editor.bluereader.org</a></code></pre>
 <pre><code>$('textarea#demo1').blueEditor({ 'width':600, 'height':80, 'language':'cn' });
 $('textarea#demo2').blueEditor({
-    'width':600, 'height':80
+    'width':600, 'height':80,
     'plugins':[
         {
             'name':'uploadImage',

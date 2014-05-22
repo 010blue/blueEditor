@@ -56,6 +56,7 @@ function BlueEditor(obj,options){
         parent=original.parent();
         container=$('<div class="blueEditor"></div>');
         content=$('<div class="blueEditor-content" contenteditable="true"></div>');
+        content.html(original.text());
         root_path=getRootPath();
         parent.append(container);
         original.hide();
